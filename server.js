@@ -62,6 +62,10 @@ connectDB().catch((err) => {
   process.exit(1);
 });
 
+app.get("/health", (res, req) => {
+  res.status(200).send({ message: "Health ok!"  })
+})
+
 // Entries management
 app.get('/api/v2/entries', authenticateFirebaseToken, async (req, res) => {
   const username = req.user.email;
