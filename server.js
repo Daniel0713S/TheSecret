@@ -62,7 +62,7 @@ connectDB().catch((err) => {
   process.exit(1);
 });
 
-app.get("/health", (res, req) => {
+app.get("/health", (req, res) => {
   res.status(200).send({ message: "Health ok!"  })
 })
 
