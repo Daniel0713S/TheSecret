@@ -1,6 +1,6 @@
-# Diary App
+# Blog App
 
-Diary App is a personal diary and journaling web application that allows users to record their thoughts and experiences. It provides a private space where users can write entries, edit them, and reflect on past memories.
+Bloag App is a personal diary and journaling web application that allows users to record their thoughts and experiences. It provides a private space where users can write entries, edit them, and reflect on past memories.
 
 
 ## Description
